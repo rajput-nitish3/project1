@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Hormonium Online</title>
+</head>
+
+
+<style>
+     html * {
+        font-family: Nunito, sans-serif !important;
+      }
+    
+    body {
+        padding: 0px;
+        margin: 0px;
+        background: url(Image/bg3.jpg);
+        filter: blur(50%);
+        background-size: cover;
+        color: white;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+
+    .left img {
+        width: 52px;
+        filter: invert(100%);
+
+    }
+
+    .mid {
+        /* border: 2px solid rgb(30, 16, 219); */
+        display: block;
+        margin: 27px auto;
+        width: 43%;
+        text-align: center;
+
+    }
+
+    .right {
+
+        /* border: 2px solid rgb(11, 216, 48); */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 33px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: rgb(116, 124, 124);
+        text-decoration: solid;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    header {
+        border: 2px rgba(2, 26, 2, 0.11) solid;
+        background-color: rgb(54 66 66 / 27%);
+        /* sticky: Positions the element relative to the users scroll position */
+        position: sticky;
+        bottom: 2px;
+        right: 4px;
+
+
+    }
+
+    .container {
+        font-size: 40px;
+        text-align: left;
+        margin-top: 50px;
+        margin-right: 0px;
+        /* border: 2px solid white; */
+        /* background-color: rgb(54 66 66 / 67%); */
+        width: 575px;
+        margin-left: 79px;
+        float: left;
+        border-radius: 8px;
+    }
+
+    .container p {
+        font-size: 17px;
+    }
+
+    .forminput {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 0px;
+        border: 1px solid rgb(249, 246, 246);
+        border-style: ridge;
+        /* background-color: rgb(54 66 66 / 57%); */
+        width: 300px;
+        margin-left: 256px;
+        float: right;
+        display: inline-block;
+        position: absolute;
+        border-radius: 8px;
+        padding: 25px 85px 20px 85px;
+
+    }
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 90%;
+        padding: 9px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+
+    }
+    .forminput button {
+        display: block;
+        width: 300px;
+        margin: 20px auto;
+        border-radius: 8px;
+
+    }
+    .combined{
+        width: auto;
+        height: 500px;
+        border: 2px solid transparent;
+        background-size: cover;
+        background-color: rgb(54 66 66 / 57%);
+        margin-top: 70px
+        /* margin: auto; */
+;
+
+
+    }
+</style>
+
+<body>
+    <header>
+
+        <!-- left for logo -->
+        <div class="left">
+            <img src="image/logo1.png" alt="">
+            <div>Harmonium Harmony</div>
+        </div>
+
+
+        <!-- mid for navbar   -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Hammonium History</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right for button -->
+        <div class="right">
+            <button class="btn">Whats app Now</button>
+
+        </div>
+    </header>
+<div class="combined">
+    <div class="container">Learn Harmonium Online
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus ex facere corporis labore nam
+            ipsum, beatae vel aspernatur sit voluptas magnam repellat officiis laborum excepturi similique, enim
+            accusamus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus ex facere
+            corporis labore nam
+            ipsum, beatae vel aspernatur sit voluptas magnam repellat officiis laborum excepturi similique, enim
+            accusamus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus ex facere
+            corporis labore nam
+            ipsum, beatae vel aspernatur sit voluptas magnam repellat officiis laborum excepturi similique, enim
+            accusamus maiores.Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus ex facere
+            corporis labore nam
+            ipsum, beatae vel aspernatur sit voluptas magnam repellat officiis laborum excepturi similique, enim
+            accusamus maiores.</p>
+    </div>
+
+    <div class="forminput">
+        <form action="backend.php">Enter Your Queries Here</form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="number" name="" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email ID">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <button class="btn">Submit</button>
+    </div>
+    </div>
+</body>
+
+</html>
